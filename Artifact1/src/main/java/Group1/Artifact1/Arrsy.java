@@ -17,6 +17,7 @@ Integer ia[] = new Integer[al.size()];
 ia = al.toArray(ia);
 int sum = 0;
 //Sum the array.
+  // All is well
 for(int i : ia) sum += i;
 System.out.println("Sum is: " + sum);
 }
